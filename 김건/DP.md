@@ -32,29 +32,13 @@
 * 이를 재귀가 아닌 동적계획법으로 풀이를 구하면 다음과 같다.
 ![image](https://user-images.githubusercontent.com/48178699/82524013-c0192980-9b68-11ea-8415-fdea8a0c900e.png)
 
-''' python <br>
+''' 
+python <br>
     def fibonacci (n) :
-      fibo = []
-    fibo.append(1) # 0번째는 1 이므로
-    fibo.append(1) # 1번째도 1 이므로
-    for i in range (2, n+1) :
-    fibo[n].append(fibo[n-2]+fibo[n-1]) # n-2 n-1의 합이 답이 되므로
-    return fibo
+        fibo = []
+        fibo.append(1) # 0번째는 1 이므로
+        fibo.append(1) # 1번째도 1 이므로
+        for i in range (2, n+1) :
+        fibo[n].append(fibo[n-2]+fibo[n-1]) # n-2 n-1의 합이 답이 되므로
+        return fibo
 '''
-
-''' 구현 <br>
-def(start_node) :
-    queue = [start_node,]
-    z
-    while True:
-        if len(queue) == 0:
-            print('All node Searched')
-        node = queue.pop(0) # 0번 인덱스를 pop - dequeue
-        
-        if node == TARGET :
-            print('The target found.')
-            return node
-        
-        children = expand(node) # node의 자식을 분해해서 children에 저장
-        queue.extend(children)
-   '''
