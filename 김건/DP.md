@@ -33,5 +33,11 @@
 ![image](https://user-images.githubusercontent.com/48178699/82524013-c0192980-9b68-11ea-8415-fdea8a0c900e.png)
 
 '''
-    print("")
+> def fibonacci (n) :
+>   fibo = []
+>    fibo.append(1) # 0번째는 1 이므로
+>    fibo.append(1) # 1번째도 1 이므로
+>    for i in range (2, n+1) :
+>        fibo.append(fibo[n-2]+fibo[n-1]) # n-2 n-1의 합이 답이 되므로
+>    return fibo
 '''
