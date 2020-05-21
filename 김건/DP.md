@@ -35,10 +35,10 @@
 ''' 
 python <br>
     def fibonacci (n) :
-        fibo = []
-        fibo.append(1) # 0번째는 1 이므로
-        fibo.append(1) # 1번째도 1 이므로
-        for i in range (2, n+1) :
-        fibo[n].append(fibo[n-2]+fibo[n-1]) # n-2 n-1의 합이 답이 되므로
-        return fibo
+    fibo = []
+    fibo.append(1) # 0번째는 1 이므로
+    fibo.append(1) # 1번째도 1 이므로
+    for i in range (2, n+1) :
+    fibo[n].append(fibo[n-2]+fibo[n-1]) # n-2 n-1의 합이 답이 되므로
+    return fibo
 '''
