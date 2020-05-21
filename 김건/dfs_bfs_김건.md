@@ -5,7 +5,7 @@
 
 - 위의 그림과 같이 A - B - C - D - G - H - I - E - F - J 순으로 방문
 
-##(2) DFS
+## (2) DFS
 - 깊이 우선 탐색: 한 노드의 자식을 타고 끝까지 순회한 후, 다시 돌아와 다른 형제들의 자식을 타고 내려가며 순회
 ![image](https://user-images.githubusercontent.com/48178699/82176277-44716f80-9911-11ea-912b-1f3fdeea12e0.png)
 - 위의 그림과 같이 A - B - D - E - F - C - G - H - I - J 
